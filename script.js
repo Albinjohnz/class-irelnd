@@ -1,2 +1,2 @@
 alert("Hello world");
-alert(4/3+2/3);
+alert(4/4);
