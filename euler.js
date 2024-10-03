@@ -4,6 +4,7 @@ b=5;
 num=1000;
 c=0;
 d=0;
+sum=0;
 for(i=1;i<num;i++)
 {
     if(i%a==0)
@@ -14,6 +15,6 @@ for(i=1;i<num;i++)
     {
         d=d+i;
     }
-    sum=d+i;
 }
+sum=d+i;
 alert(sum);
