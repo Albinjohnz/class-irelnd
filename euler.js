@@ -6,11 +6,11 @@ c=0;
 d=0;
 for(i=1;i<num;i++)
 {
-    if(a%i==0)
+    if(i%a==0)
     {
         c=c+i;
     }
-    if(b%1==0)
+    if(i%b==0)
     {
         d=d+i;
     }
