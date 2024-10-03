@@ -1,0 +1,19 @@
+alert("Load euler.js");
+a=3;
+b=5;
+num=1000;
+c=0;
+d=0;
+for(i=1;i<num;i++)
+{
+    if(a%i==0)
+    {
+        c=c+i;
+    }
+    if(b%1==0)
+    {
+        d=d+i;
+    }
+    sum=d+i;
+}
+console.log(sum);
