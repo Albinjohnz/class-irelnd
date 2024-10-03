@@ -1,2 +1,2 @@
 alert("Hello world");
-alert(1/3);
+alert("The value of 4/3+3/2= "+4/3+3/2);
