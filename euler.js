@@ -16,4 +16,4 @@ for(i=1;i<num;i++)
     }
     sum=d+i;
 }
-console.log(sum);
+alert(sum);
