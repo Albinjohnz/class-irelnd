@@ -23,11 +23,11 @@ function GetValues() {
                 d=d+i;
             }
         }
-        sum=c+d;
         if (isNaN(a) || isNaN(b) || isNaN(n) || n <= 0) {
         alert("Please enter valid numbers and ensure the limit is positive.");
         return;
     }
+    sum=c+d;
     alert(sum);
 }
 
