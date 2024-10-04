@@ -1,3 +1,21 @@
+/*Arrays:
+a.
+Create a function which takes parameters a,b,l
+l is a list of integers
+find the sum of all the multiples of a or b in l
+
+b.
+Create a function which takes parameters a,l
+a is a list of two integers
+l is a list of integers
+find the sum of all the multiples of elements of a in l
+
+c.
+Create a function which takes parameters a,l
+a is a list of integers
+l is a list of integers
+find the sum of all the multiples of elements of a in l
+*/
 alert("Load euler.js");
 a=3;
 b=5;
@@ -18,3 +36,10 @@ for(i=1;i<num;i++)
 }
 sum=c+d;
 alert(sum);
+function array(a,l)
+{
+const a=[1,2]
+const l=[1,2,3,4,6,7,8,9]
+const sum=sumOfMultiples(a,l)
+}
+alert(sum)
