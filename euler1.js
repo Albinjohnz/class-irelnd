@@ -28,9 +28,11 @@ function GetValues() {
         sum=c+d;
         alert(sum);
 
-    
+    if (isNaN(a) || isNaN(b) || isNaN(n) || n <= 0) {
+        alert("Please enter valid numbers and ensure the limit is positive.");
+        return;
     }
-
+}
 
 
 function Show() {
