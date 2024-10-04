@@ -10,9 +10,9 @@ function sum(a, b, n) {
 }
 
 function GetValues() {
-    const num1 = parseInt(document.getElementById("num1").value);
-    const num2 = parseInt(document.getElementById("num2").value);
-    const limit = parseInt(document.getElementById("limit").value);
+    const a = parseInt(document.getElementById("num1").value);
+    const b = parseInt(document.getElementById("num2").value);
+    const n = parseInt(document.getElementById("limit").value);
     document.getElementById("num1").style.display = "none";
     document.getElementById("num2").style.display = "none";
     document.getElementById("limit").style.display = "none";
