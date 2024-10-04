@@ -1,3 +1,4 @@
+alert("arraya.js")
 function sumOfMultiples(a, l) {
     return l.reduce((sum, x) => {
         return sum + (a.some(num => x % num === 0) ? x : 0);
