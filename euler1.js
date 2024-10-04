@@ -23,8 +23,8 @@ function GetValues() {
                 d=d+i;
             }
         }
-        if (isNaN(a) || isNaN(b) || isNaN(n) || n <= 0) {
-        alert("Please enter valid numbers and ensure the limit is positive.");
+        if (isNaN(a) || isNaN(b) || isNaN(n) || ni <= 0) {
+        alert("Please enter valid number.");
         return;
     }
     sum=c+d;
