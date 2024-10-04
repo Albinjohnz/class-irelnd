@@ -36,10 +36,4 @@ for(i=1;i<num;i++)
 }
 sum=c+d;
 alert(sum);
-function array(a,l)
-{
-const a=[1,2]
-const l=[1,2,3,4,6,7,8,9]
-const sum1=sumOfMultiples(a,l)
-}
-alert(sum1)
+
