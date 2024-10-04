@@ -1,4 +1,6 @@
 alert("Euler1.js")
+
+    
 function GetValues() {
     const a = parseInt(document.getElementById("num1").value);
     const b = parseInt(document.getElementById("num2").value);
@@ -10,21 +12,28 @@ function GetValues() {
     document.getElementById("label1").style.display = "none";
     document.getElementById("label2").style.display = "none";
     document.getElementById("label3").style.display = "none";
+    c=0;
+    d=0;
+    for(i=1;i<n;i++)
+        {
+            if(i%a==0)
+            {
+                c=c+i;
+            }
+            if(i%b==0)
+            {
+                d=d+i;
+            }
+        }
+        sum=c+d;
+        alert(sum);
 
     if (isNaN(a) || isNaN(b) || isNaN(n) || n <= 0) {
         alert("Please enter valid numbers and ensure the limit is positive.");
         return;
     }
 }
-function sum(a, b, n) {
-    let sum = 0;
-    for (let i = 1; i < n; i++) {
-        if (i % a === 0 || i % b === 0) {
-            sum += i;
-        }
-    }
-    alert("Sum = " + sum);
-}
+
 
 function Show() {
     document.getElementById("num1").style.display = "block";
