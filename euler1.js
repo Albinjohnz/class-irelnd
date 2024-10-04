@@ -1,14 +1,4 @@
 alert("Euler1.js")
-function sum(a, b, n) {
-    let s = 0;
-    for (let i = 1; i < n; i++) {
-        if (i % a === 0 || i % b === 0) {
-            s += i;
-        }
-    }
-    alert("Sum = " + s);
-}
-
 function GetValues() {
     const a = parseInt(document.getElementById("num1").value);
     const b = parseInt(document.getElementById("num2").value);
@@ -25,8 +15,15 @@ function GetValues() {
         alert("Please enter valid numbers and ensure the limit is positive.");
         return;
     }
-
-    sum(a,b,n);
+}
+function sum(a, b, n) {
+    let sum = 0;
+    for (let i = 1; i < n; i++) {
+        if (i % a === 0 || i % b === 0) {
+            sum += i;
+        }
+    }
+    alert("Sum = " + sum);
 }
 
 function Show() {
