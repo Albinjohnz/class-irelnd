@@ -8,9 +8,11 @@
             const [x, y] = a; 
             
             list.forEach((item) => {
-                if (item % x === 0 || item % y === 0) {
+                for(const num of a){
+                if (item % num==0) {
                     total += item;
                 }
+            }
             });
             alert(total);
         }
