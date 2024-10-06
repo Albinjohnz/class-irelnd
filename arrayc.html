@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Sum</title>
+    <script>
+        function calculateArraySum(a, list) {
+            let total = 0;
+            const [x, y] = a; 
+            
+            list.forEach((item) => {
+                if (item % x === 0 || item % y === 0) {
+                    total += item;
+                }
+            });
+            alert(total);
+        }
+
+            calculateArraySum([2, 3], [1, 2, 3, 4, 6, 7, 8, 9]);
+    
+    </script>
+</head>
+<body>
+    <h1>Array Sum Calculation</h1>
+</body>
+</html>
